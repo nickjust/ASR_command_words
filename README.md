@@ -51,8 +51,8 @@ be used on a higher level for the control a robot via voice.
      <td>Holiday Mention</td>
   </tr>
   <tr>
-    <td><img src="images_readme/cross_validation_fig.PNG" width=270 height=480></td>
-    <td><img src="images_readme/MFCC_visualization.png" width=270 height=480></td>
+    <td><img src="images_readme/cross_validation_fig.PNG" width=400 height=480></td>
+    <td><img src="images_readme/MFCC_visualization.png" width=400 height=480></td>
   </tr>
  </table>
 
