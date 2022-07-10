@@ -32,6 +32,10 @@ be used on a higher level for the control a robot via voice.
 </p>
 
 
+- Storage of training and validation datasets with MFCC coefficients and labels in .json format for further processing. (see script for detailed information )
 
-
-- see script for detailed information 
+### Part 3: Training of RNN-LSTM and CNN classification model
+- Self-developed and trained CNN and RNN-LSTM neural networks using the libraries Tensorflow and Keras for classification of the audio files 
+(see script [model_train.py](https://github.com/nickjust/ASR_command_words/blob/main/AudioRecorder.py) for details).
+- Hyperparametertuning of training parameters of both neural network architectures 
+- Trained 3 models each for CNN and RNN-LSTM  according to the previous  3-fold cross validation split and summarized the results computing and visualising average training and validation curves with ±1 standard deviation s during training process:
