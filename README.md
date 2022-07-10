@@ -22,7 +22,7 @@ be used on a higher level for the control a robot via voice.
 - For the evaluation and validation of the two neural networks, a 3-fold speaker-independent cross-validation was chosen. For this purpose, the data set had to be divided into 3 equal parts. In order to develop a speaker-independent system, it was ensured that a speaker did not occur simultaneously in the training and validation data.
 
 <p align="center">
-  <img src="images_readme/cross_validation_fig.PNG" = 250x250>
+  <img src="images_readme/cross_validation_fig.PNG" width="250"/>
 </p>
 
 - Extraction of MFCC features (conversion of the audio signals into a time-frequency plane) for later classification using the library librosa, since the raw audio waveform is generally not directly used as an input vector for the machine learning algorithms in the speech recognition task. Example fir the extacted MFCC Features for one audiofile:
