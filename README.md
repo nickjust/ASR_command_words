@@ -40,8 +40,8 @@ be used on a higher level for the control a robot via voice.
 - Hyperparametertuning of training parameters of both neural network architectures 
 - Trained 3 models each for CNN and RNN-LSTM  according to the previous  3-fold cross validation split and summarized the results computing and visualising average training and validation curves with ±1 s (standard deviation) during training process:
 <p float="left">
-  <img src="images_readme/cross_validation_fig.PNG" width="200" />
-  <img src="images_readme/MFCC_visualization.png" width="200" /> 
+  <img src="images_readme/cross_validation_fig.PNG" width="400" "title-2" />
+  <img src="images_readme/MFCC_visualization.png" width="400" "title-2" /> 
 </p>
 
 ![alt-text-1]("images_readme/cross_validation_fig.PNG"title-1" "width="250) ![alt-text-2]("images_readme/MFCC_visualization.png "title-2" "width="250)
