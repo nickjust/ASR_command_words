@@ -16,7 +16,7 @@ be used on a higher level for the control a robot via voice.
 ### Part 1: Data acquisition
 - Created a custom audio dataset by recording the 10 words from a total of 9 male and 9 female participants, with each command word recorded 30 times by the participants. (5400 audio files in total)
 - Each audio of command word is saved in a separate WAV file (mono, 16-bit resolution, duration: 2 seconds)
-- Generated script for automated recording: 
+- Script for automated recording:[AudioRecorder.py](https://github.com/nickjust/ASR_command_words/blob/main/AudioRecorder.py) 
 
 ### Part 2: Preprocessing 
 - For the evaluation and validation of the two neural networks, a 3-fold speaker-independent cross-validation was chosen. For this purpose, the data set had to be divided into 3 equal parts. In order to develop a speaker-independent system, it was ensured that a speaker did not occur simultaneously in the training and validation data.
@@ -34,4 +34,4 @@ be used on a higher level for the control a robot via voice.
 
 
 
-- see script for detailed information
+- see script for detailed information 
