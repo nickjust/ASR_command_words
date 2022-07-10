@@ -25,7 +25,13 @@ be used on a higher level for the control a robot via voice.
   <img src="images_readme/cross_validation_fig.PNG" width="550"/>
 </p>
 
-- Extraction of MFCC features (conversion of the audio signals into a time-frequency plane) for later classification using the library librosa, since the raw audio waveform is generally not directly used as an input vector for the machine learning algorithms in the speech recognition task. Example fir the extacted MFCC Features for one audiofile:
+- Extraction of MFCC features (conversion of the audio signals into a time-frequency plane) for later classification using the library librosa, since the raw audio waveform is general not directly used as an input vector for the machine/deep learning algorithms in the speech recognition domain. Illustration of the MFCC coefficients for an audio file of the used dataset (word: vor):
+
+<p align="center">
+  <img src="images_readme/MFCC_visualization.png" width="550"/>
+</p>
+
+
 
 
 - see script for detailed information
