@@ -4,7 +4,7 @@
 
 * Realized a Automatic Speech Recognition system (ASR/NLP) to classificate command words with custom modeled CNN and RNN-LSTM
 * Implementation in Python using the libraries Tensorflow, Keras and Librosa 
-* Quantitative comparison and evaluation of both neural networks by cross validation, average evaluation metric scores (Precision, Recall, F1-Score, Accuracy)  confusion matrix and statistical t-Test analysis
+* Quantitative comparison and evaluation of both neural networks by 3-fold speaker independent cross validation, average evaluation metric scores (Precision, Recall, F1-Score, Accuracy)  confusion matrix and statistical t-Test analysis
 * Achieved a classification accuracy of over 85% on average
 
 ### Objective:
@@ -18,7 +18,7 @@ be used on a higher level for the control of a robot via voice.
 - Script for automated recording: [AudioRecorder.py](https://github.com/nickjust/ASR_command_words/blob/main/AudioRecorder.py) 
 
 ### Part 2: Preprocessing 
-- For the evaluation and validation of the two neural networks, a 3-fold speaker-independent cross-validation was chosen. For this purpose, the data set had to be divided into 3 equal parts. In order to develop a speaker-independent system, it was ensured that a speaker did not occur simultaneously in the training and validation data.
+- For the evaluation and validation of the two neural networks, a 3-fold speaker independent cross validation was chosen. For this purpose, the data set had to be divided into 3 equal parts. In order to develop a speaker-independent system, it was ensured that a speaker did not occur simultaneously in the training and validation data.
 
 <p align="center">
   <img src="images_readme/cross_validation_fig.PNG" width="550"/>
