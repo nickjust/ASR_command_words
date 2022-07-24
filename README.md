@@ -68,7 +68,7 @@ be used on a higher level for the control of a robot via voice.
   <img src="images_readme/comparison_boxplot.PNG" width="450"/>
 </p>
 
-- The two sample t-Test analysis implies that we do not have sufficient evidence to say that the average accuracy between the CNN and LSTM model is different, because the p-value of the test comes out to be greater than alpha = 0.05 (set significance level). 
+- The two sample t-Test analysis implies that we do not have sufficient evidence to say that the average accuracy between the CNN and LSTM model is different, because the p-value of the test comes out to be greater than $\alpha$ = 0.05 (set significance level). 
 
 - A closer look was taken at the average Precision, Recall, and F1 score and F1 standard deviation of the models for a more detailed investigation of the classification performance and the weaknesses of both models with respect to individual command words:
 <table>
