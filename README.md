@@ -43,8 +43,8 @@ be used on a higher level for the control of a robot via voice.
      <td>LSTM Architecture</td>
   </tr>
   <tr>
-    <td><img src="images_readme/CNN_architecture.PNG" width=400 ></td>
-    <td><img src="images_readme/RNN_architecture.PNG" width=400 ></td>
+    <td><img src="images_readme/CNN_architecture.PNG" width=500 ></td>
+    <td><img src="images_readme/RNN_architecture.PNG" width=500 ></td>
   </tr>
 </table>
 
@@ -57,8 +57,8 @@ be used on a higher level for the control of a robot via voice.
      <td>LSTM training curves</td>
   </tr>
   <tr>
-    <td><img src="images_readme/CNN_training curves.png" width=400></td>
-    <td><img src="images_readme/RNN_training curves.png" width=400></td>
+    <td><img src="images_readme/CNN_training curves.png" width=500></td>
+    <td><img src="images_readme/RNN_training curves.png" width=500></td>
   </tr>
  </table>
 
@@ -79,8 +79,8 @@ be used on a higher level for the control of a robot via voice.
 (validation data, K=3)</td>
   </tr>
   <tr>
-    <td><img src="images_readme/CNN_metric_table.PNG"  width=400></td>
-    <td><img src="images_readme/RNN_metric_table.PNG" width=400 ></td>
+    <td><img src="images_readme/CNN_metric_table.PNG"  width=500></td>
+    <td><img src="images_readme/RNN_metric_table.PNG" width=500 ></td>
   </tr>
 </table>
 
@@ -93,7 +93,7 @@ be used on a higher level for the control of a robot via voice.
     <td>Confusion matrix LSTM model on the validation datasets (average)</td>
   </tr>
   <tr>
-    <td><img src="images_readme/CNN_confusion_matrix.PNG"  width=400></td>
-    <td><img src="images_readme/RNN_confusion_matrix.PNG"  width=400></td>
+    <td><img src="images_readme/CNN_confusion_matrix.PNG"  width=500></td>
+    <td><img src="images_readme/RNN_confusion_matrix.PNG"  width=500></td>
   </tr>
 </table>
