@@ -37,18 +37,17 @@ be used on a higher level for the control of a robot via voice.
 - Self-developed and trained CNN and RNN-LSTM neural networks using the libraries Tensorflow and Keras for classification of the audio files 
 (see script [model_train.py](https://github.com/nickjust/ASR_command_words/blob/main/AudioRecorder.py) for details).
 - Hyperparametertuning of training parameters of both neural network architectures. Final architecture:
-<p align="center">
- <table>
-   <tr>
-     <td>CNN Architecture</td>
-      <td>RNN Architecture</td>
-   </tr>
-   <tr>
-     <td><img src="images_readme/CNN_architecture.PNG" width=400 ></td>
-     <td><img src="images_readme/RNN_architecture.PNG" width=400 ></td>
-   </tr>
-  </table>
-</p> 
+<table>
+  <tr>
+    <td>CNN Architecture</td>
+     <td>RNN Architecture</td>
+  </tr>
+  <tr>
+    <td><img src="images_readme/CNN_architecture.PNG" width=400 ></td>
+    <td><img src="images_readme/RNN_architecture.PNG" width=400 ></td>
+  </tr>
+</table>
+
 
 - Trained 3 models each for CNN and RNN-LSTM  according to the previous  3-fold cross validation split and summarized the results computing and visualising average training and validation curves with ±1 s (standard deviation) during training process:
 
