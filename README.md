@@ -36,22 +36,28 @@ be used on a higher level for the control of a robot via voice.
 ### Part 3: Training of RNN-LSTM and CNN for classification
 - Self-developed and trained CNN and RNN-LSTM neural networks using the libraries Tensorflow and Keras for classification of the audio files 
 (see script [model_train.py](https://github.com/nickjust/ASR_command_words/blob/main/AudioRecorder.py) for details).
-- Hyperparametertuning of training parameters of both neural network architectures 
+- Hyperparametertuning of training parameters of both neural network architectures. Final architecture:
+<table>
+  <tr>
+    <td>CNN Architecture</td>
+     <td>RNN Architecture</td>
+  </tr>
+  <tr>
+    <td><img src="images_readme/CNN_architecture.PNG" width=400 ></td>
+    <td><img src="images_readme/RNN_architecture.png" width=400 ></td>
+  </tr>
+ </table>
+
 - Trained 3 models each for CNN and RNN-LSTM  according to the previous  3-fold cross validation split and summarized the results computing and visualising average training and validation curves with ±1 s (standard deviation) during training process:
-- 
-<p float="left">
-  <img src="images_readme/CNN_architecture.PNG" width="400" "title-2" />
-  <img src="images_readme/RNN_architecture.PNG" width="400" "title-2" /> 
-</p>
 
 <table>
   <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
+    <td>CNN training curves</td>
+     <td>RNN training curves</td>
   </tr>
   <tr>
-    <td><img src="images_readme/cross_validation_fig.PNG" width=400 height=480></td>
-    <td><img src="images_readme/MFCC_visualization.png" width=400 height=480></td>
+    <td><img src="images_readme/CNN_training curves.PNG" width=400 height=480></td>
+    <td><img src="images_readme/RNN_training curves.png" width=400 height=480></td>
   </tr>
  </table>
 
