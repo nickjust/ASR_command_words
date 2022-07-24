@@ -70,13 +70,14 @@ be used on a higher level for the control of a robot via voice.
 - A closer look was taken at the average Precision, Recall, and F1 score and F1 standard deviation of the models for a more detailed investigation of the classification performance and the weaknesses of both models with respect to individual command words:
 <table>
   <tr>
-    <td>CNN Architecture</td>
+    <td>Average values of Precision, Recall and F1 score and standard deviation from the F1 score of the CNN model
+(validation data, K=3)</td>
      <td>Average values of Precision, Recall and F1 score and standard deviation from the F1 score of the LSTM model
 (validation data, K=3)</td>
   </tr>
   <tr>
-    <td><img src="images_readme/CNN_metric_table.PNG" width=400 ></td>
-    <td><img src="images_readme/RNN_metric_table.PNG" width=400 ></td>
+    <td><img src="images_readme/CNN_metric_table.PNG"  ></td>
+    <td><img src="images_readme/RNN_metric_table.PNG"  ></td>
   </tr>
 </table>
 
