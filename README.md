@@ -1,8 +1,8 @@
-## Automatic Speech Recognition of command words with RNN-LSTM and CNN 
+## Automatic Speech Recognition of command words with CNN and RNN-LSTM
 
 ### Project overview
 
-* Realized a Automatic Speech Recognition system (ASR/NLP) to classificate command words with custom modeled RNN-LSTM and CNN
+* Realized a Automatic Speech Recognition system (ASR/NLP) to classificate command words with custom modeled CNN and RNN-LSTM
 * Implementation in Python using the libraries Tensorflow, Keras and Librosa 
 * Quantitative comparison and evaluation of both neural networks by cross validation, average evaluation metric scores (Precision, Recall, F1-Score, Accuracy)  confusion matrix and statistical t-Test analysis
 * Achieved a classification accuracy of over 85% on average
