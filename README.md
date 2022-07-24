@@ -44,7 +44,7 @@ be used on a higher level for the control of a robot via voice.
   </tr>
   <tr>
     <td><img src="images_readme/CNN_architecture.PNG" width=400 ></td>
-    <td><img src="images_readme/RNN_architecture.png" width=400 ></td>
+    <td><img src="images_readme/RNN_architecture.PNG" width=400 ></td>
   </tr>
  </table>
 
@@ -56,8 +56,8 @@ be used on a higher level for the control of a robot via voice.
      <td>RNN training curves</td>
   </tr>
   <tr>
-    <td><img src="images_readme/CNN_training curves.PNG" width=400 height=480></td>
-    <td><img src="images_readme/RNN_training curves.png" width=400 height=480></td>
+    <td><img src="images_readme/CNN_training curves.png" ></td>
+    <td><img src="images_readme/RNN_training curves.png" ></td>
   </tr>
  </table>
 
