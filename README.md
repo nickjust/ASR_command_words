@@ -31,7 +31,7 @@ be used on a higher level for the control of a robot via voice.
 </p>
 
 
-- Storage of training and validation datasets with MFCC coefficients and labels in .json format for further processing. (see script [preprocessing.py](https://github.com/nickjust/ASR_command_words/blob/main/preprocessing.py) for detailed information )
+- Storage of training and validation datasets with MFCC coefficients and labels in .json format for further processing. (see script [preprocessing.py](https://github.com/nickjust/ASR_command_words/blob/main/preprocessing.py) for details)
 
 ### Part 3: Training of LSTM and CNN model for classification
 - Self-developed and trained CNN and LSTM neural networks using the libraries Tensorflow and Keras for classification of the audio files 
