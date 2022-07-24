@@ -86,8 +86,8 @@ be used on a higher level for the control of a robot via voice.
 - Additional investigation with average confusion matrix for LSTM and CNN models revealed that the weaker performance of the classes start and stop in both models is due to frequent mutual misclassification. The command word stop is especially often incorrectly predicted as start and vice versa the command word start as stop: 
 <table>
   <tr>
-    <td>Confusion matrix CNN model on the validation datasets (absolute average values)</td>
-    <td>Confusion matrix LSTM model on the validation datasets (absolute average values)</td>
+    <td>Confusion matrix CNN model on the validation datasets (average)</td>
+    <td>Confusion matrix LSTM model on the validation datasets (average)</td>
   </tr>
   <tr>
     <td><img src="images_readme/CNN_confusion_matrix.PNG"  ></td>
