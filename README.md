@@ -4,8 +4,7 @@
 
 * Realized a Automatic Speech Recognition system (ASR/NLP) to classificate command words with custom modeled RNN-LSTM and CNN
 * Implementation in Python using Tensorflow, Keras and Librosa 
-* Quantitative comparison and evaluation of both neural networks by cross validation, average evaluation metric scores  
-  (Precision, Recall, F1-Score, Accuracy)  confusion matrix and statistical t-test analysis
+* Quantitative comparison and evaluation of both neural networks by cross validation, average evaluation metric scores (Precision, Recall, F1-Score, Accuracy)  confusion matrix and statistical t-test analysis
 * Achieved an accuracy of over 91.9% on average
 
 ### Objective:
