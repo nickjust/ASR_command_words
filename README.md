@@ -31,11 +31,11 @@ be used on a higher level for the control of a robot via voice.
 </p>
 
 
-- Storage of training and validation datasets with MFCC coefficients and labels in .json format for further processing. (see script [preprocessing.py](https://github.com/nickjust/ASR_command_words/blob/main/preprocessing.py) and [main.py](https://github.com/nickjust/ASR_command_words/blob/main/main.py) for details)
+- Storage of training and validation datasets with MFCC coefficients and labels in .json format for further processing. (see script [preprocessing.py](https://github.com/nickjust/ASR_command_words/blob/main/preprocessing.py) for details)
 
 ### Part 3: Training of LSTM and CNN model for classification
 - Self-developed and trained CNN and LSTM neural networks using the libraries Tensorflow and Keras for classification of the audio files 
-(see script [model_train.py](https://github.com/nickjust/ASR_command_words/blob/main/model_train.py) for details).
+(see script [model_train.py](https://github.com/nickjust/ASR_command_words/blob/main/model_train.py) and [main.py](https://github.com/nickjust/ASR_command_words/blob/main/main.py) for details).
 - Hyperparametertuning of training parameters of both neural network architectures. Final architecture:
 <table>
   <tr>
