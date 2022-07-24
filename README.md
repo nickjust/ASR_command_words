@@ -68,5 +68,18 @@ be used on a higher level for the control of a robot via voice.
 - The two sample t-Test analysis implies that we do not have sufficient evidence to say that the average accuracy between the CNN and LSTM model is different, because the p-value of the test comes out to be greater than alpha = 0.05 (set significance level). 
 
 - A closer look was taken at the average Precision, Recall, and F1 score and F1 standard deviation of the models for a more detailed investigation of the classification performance and the weaknesses of both models with respect to individual command words:
+<table>
+  <tr>
+    <td>CNN Architecture</td>
+     <td>Average values of Precision, Recall and F1 score and standard deviation from the F1 score of the LSTM model
+(validation data, K=3)</td>
+  </tr>
+  <tr>
+    <td><img src="images_readme/CNN_metric_table.PNG" width=400 ></td>
+    <td><img src="images_readme/RNN_metric_table.PNG" width=400 ></td>
+  </tr>
+</table>
+
+
 
 - Additional investigation with average confusion matrix for LSTM and CNN models revealed that the weaker performance of the classes start and stop in both models is due to frequent mutual misclassification. The command word stop is especially often incorrectly predicted as start and vice versa the command word start as stop: 
