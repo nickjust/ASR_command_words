@@ -4,7 +4,7 @@
 
 * Realized a Automatic Speech Recognition system (ASR/NLP) to classificate command words with custom modeled RNN-LSTM and CNN
 * Implementation in Python using the libraries Tensorflow, Keras and Librosa 
-* Quantitative comparison and evaluation of both neural networks by cross validation, average evaluation metric scores (Precision, Recall, F1-Score, Accuracy)  confusion matrix and statistical t-test analysis
+* Quantitative comparison and evaluation of both neural networks by cross validation, average evaluation metric scores (Precision, Recall, F1-Score, Accuracy)  confusion matrix and statistical t-Test analysis
 * Achieved a classification accuracy of over 85% on average
 
 ### Objective:
@@ -63,3 +63,10 @@ be used on a higher level for the control of a robot via voice.
  </table>
 
 ### Part 4: Results and Evaluation
+- Comparison of the final weighted CNN and LSTM models accuracy on the test speaker independent validation data matching the 3-fold cross-validation. Visualization of the results through a boxplot. Furthermore, the accuracy averages of the three runs as well as their standard deviation are given for more accurate estimation.
+
+- The two sample t-Test analysis implies that we do not have sufficient evidence to say that the average accuracy between the CNN and LSTM model is different, because the p-value of the test comes out to be greater than alpha = 0.05 (set significance level). 
+
+- A closer look was taken at the average Precision, Recall, and F1 score and F1 standard deviation of the models for a more detailed investigation of the classification performance and the weaknesses of both models with respect to individual command words:
+
+- Additional investigation with average confusion matrix for LSTM and CNN models revealed that the weaker performance of the classes start and stop in both models is due to frequent mutual misclassification. The command word stop is especially often incorrectly predicted as start and vice versa the command word start as stop: 
