@@ -7,7 +7,7 @@
 * Quantitative comparison and evaluation of both neural networks by 3-fold speaker independent cross validation, average evaluation metric scores (Precision, Recall, F1-Score, Accuracy)  confusion matrix and statistical t-Test analysis
 * Achieved a classification accuracy of over 85% on average for both models
 
-You can access to the code **[HERE](https://github.com/nickjust/ASR_command_words)**
+You can access the code **[HERE](https://github.com/nickjust/ASR_command_words)**
 
 ### Objective:
 Speech recognition and classification of 10 command words ((1) links (2) rechts (3) vor (4) zurück (5) start (6) stop (7) schneller (8) langsamer
