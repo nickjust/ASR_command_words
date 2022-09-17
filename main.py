@@ -413,11 +413,10 @@ def main():
     
     
     # 2-sample t-test to compare two samples and their means
-    # significance level of 5% i.e. alpha = 0.05 
-    # hypothesis : the two average accuracy values of the models are not equal and are significantly different
-    # null hypothesis : the two average accuracy values of the models are equal
-    # Null hypothesis that both average accuracy values cannot be rejected here if p-value of t-test is above 0.05 
-    # Only if the p-value is below 0.05, null hypothesis can be rejected
+    # Hypothesis : the two average accuracy values of the models are not equal and are significantly different
+    # Null hypothesis : the two average accuracy values of the models are equal
+    # Significance level of 5% i.e. alpha = 0.05 
+    # If p-value of t-test is under 0.05 , Null hypothesis can be rejected
     
     # Before performing the t-test, one must decide if we assume, that the two populations have equal variances or not 
     # Rule of thumb : If ratio of larger sample variance to smaller sample variance is more than 4 then variances/standard deviations are not equal and one performs Welch test
